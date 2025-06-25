@@ -1,0 +1,8 @@
+{
+  "comparator_output": 15,
+  "description": {
+    "translate": "item.themachinamod.sovietmusicdisk.desc"
+  },
+  "length_in_seconds": 203.0,
+  "sound_event": "themachinamod:soviet_anthem"
+}

@@ -1,0 +1,10 @@
+{
+  "soviet_anthem": {
+    "sounds": [
+      {
+      "name": "themachinamod:soviet_anthem",
+        "stream": true
+      }
+    ]
+  }
+}

@@ -2,6 +2,7 @@ package net.machina.themachinamod;
 
 import com.mojang.logging.LogUtils;
 import net.machina.themachinamod.items.ModItems;
+import net.machina.themachinamod.sound.ModSounds;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.common.MinecraftForge;
@@ -34,6 +35,8 @@ public class TutorialMod {
 
         ModItems.register(modEventBus);
 
+        ModSounds.register(modEventBus);
+
 
 
         // Register the item to a creative tab
@@ -51,6 +54,7 @@ public class TutorialMod {
 
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.HAMMERANDSICKLE);
+            event.accept(ModItems.SOVIETMUSICDISC);
         }
     }
 
