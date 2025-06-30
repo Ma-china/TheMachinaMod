@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "themachinamod:sovietcore"
+    },
+    "title": "The secret revealed!!!",
+    "description": "The communist cause knows no ends!",
+    "frame": "task",
+    "show_toast": true,
+    "announce_to_chat": true,
+    "background": "themachinamod:textures/item/hammerandsickle.png"
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "themachinamod:sovietcore"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

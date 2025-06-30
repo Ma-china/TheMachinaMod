@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "ingredient": {
+    "item": "themachinamod:hammerandsickle"
+  },
+  "result": {
+    "count": 1,
+    "id": "themachinamod:sovietcore"
+  }
+}

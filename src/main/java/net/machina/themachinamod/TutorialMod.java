@@ -55,6 +55,7 @@ public class TutorialMod {
         if(event.getTabKey() == CreativeModeTabs.INGREDIENTS){
             event.accept(ModItems.HAMMERANDSICKLE);
             event.accept(ModItems.SOVIETMUSICDISC);
+            event.accept(ModItems.SOVIETCORE);
         }
     }
 
