@@ -1,8 +1,9 @@
 {
-  "soviet_anthem": {
+  "themachinamod:soviet_anthem": {
+    "category": "record",
     "sounds": [
       {
-      "name": "themachinamod:soviet_anthem",
+        "name": "themachinamod:soviet_anthem",
         "stream": true
       }
     ]

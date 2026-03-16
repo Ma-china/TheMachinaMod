@@ -3,8 +3,6 @@
   "ingredient": {
     "item": "themachinamod:hammerandsickle"
   },
-  "result": {
-    "count": 1,
-    "id": "themachinamod:sovietcore"
-  }
+  "result": "themachinamod:sovietcore",
+  "count": 1
 }

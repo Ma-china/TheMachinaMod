@@ -5,7 +5,7 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.food.FoodProperties;
 
 public class ModFoodProperties {
-    public static final FoodProperties SOVIETCORE = new FoodProperties.Builder().nutrition(1000).saturationModifier(1000)
+    public static final FoodProperties SOVIETCORE = new FoodProperties.Builder().nutrition(1000).saturationMod(1000f)
             .effect(new MobEffectInstance(MobEffects.GLOWING, -1),1f)
             .effect(new MobEffectInstance(MobEffects.ABSORPTION, -1,255),1f)
             .effect(new MobEffectInstance(MobEffects.DAMAGE_RESISTANCE, -1,255),1f)
@@ -13,5 +13,5 @@ public class ModFoodProperties {
             .effect(new MobEffectInstance(MobEffects.WATER_BREATHING, -1,255),1f)
             .effect(new MobEffectInstance(MobEffects.REGENERATION, -1,255),1f)
             .effect(new MobEffectInstance(MobEffects.FIRE_RESISTANCE, -1,255),1f)
-            .alwaysEdible().build();
+            .fast().build();
 }
