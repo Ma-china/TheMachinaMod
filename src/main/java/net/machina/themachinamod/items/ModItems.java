@@ -37,11 +37,11 @@ public class ModItems {
     public static final RegistryObject<Item> SOVIETMUSICDISC = ITEMS.register("sovietmusicdisc",
             () -> new RecordItem(
                     100, // comparator output
-                    (Supplier) ModSounds.SOVIET_ANTHEM, // sound supplier
-                    new RecordItem.Properties()
+                    ModSounds.SOVIET_ANTHEM, // sound supplier
+                    new Item.Properties()
                             .rarity(Rarity.EPIC)
                             .stacksTo(1),
-                    0 // delay
+                    2440 // length of song
             ));
 
 
